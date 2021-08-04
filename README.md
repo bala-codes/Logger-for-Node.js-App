@@ -1,5 +1,5 @@
 # Logger-for-Node.js-App
-A simple logger which saves the print logs in an Node.js app on a .txt file, which can be an alternative way for console.log("Hello World")
+A simple logger which saves the console logs in an Node.js app on a .txt file, which can be an alternative way for console.log("Hello World")
 
 ## Default Parameters : 
 1. directory = './logs', the directory where the logs will be stored.
