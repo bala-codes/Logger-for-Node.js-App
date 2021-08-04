@@ -6,7 +6,8 @@ class Logger{
 	constructor(save_length=2, file_name="logs.txt", max_length=null, verbose=true, console_print=false){
     	this.save_length=save_length;
         this.directory = './logs';
-        this.log_path = path.join(this.directory,file_name);
+        this.file_name = file_name
+        this.log_path = path.join(this.directory,this.file_name);
         this.log_list = [];
         this.max_length = max_length;
         this.console_print = console_print;
@@ -56,7 +57,3 @@ class Logger{
 }
 
 module.exports = { Logger };
-
-
-
-
